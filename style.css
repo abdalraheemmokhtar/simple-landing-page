@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,300&display=swap');
+
+body {
+    box-sizing: border-box;
+    background-color: #0c1821;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    color: #2E4057;
+    font-family: 'Anton', sans-serif;
+}
+.nav{
+    /*background-color: darkorange;*/
+    font-family: 'Bitter', serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vh;
+}
+
+a:link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+}
+
+.list-element{
+    color: white;
+    /* background-color: darkcyan; */
+    padding: 2px;
+    list-style: none;
+}
+.first{
+    /* background-color: darkolivegreen; */
+    height: 30px;
+    width: 100vh;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.second{
+    background-color: rgb(252, 253, 253);
+    
+    display: flex;
+    flex-direction: row;
+    /* height: 50vh;
+    width: 100vh; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+.img{
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+.third{
+    /* background-color: rgb(152, 180, 104); */
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.third-element{
+    font-family: 'Exo 2', sans-serif;
+    height: 200px;
+    width: 200px;
+    background-color: #1b2a41;
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 10px;
+
+}
